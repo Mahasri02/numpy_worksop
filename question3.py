@@ -6,7 +6,4 @@ def fact(n):
     return n*fact(n-1)
   n = int(input())
   result = fact(n)
-  if(n==result):
-    print(f"{n} is Factorial")
-  else:
-    print(f"{n} is not a Factorial")
+ print(result)
